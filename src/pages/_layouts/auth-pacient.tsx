@@ -1,6 +1,6 @@
 
 import { Outlet } from "react-router-dom";
-import { Menu } from "../app/dashboard-admin/menu";
+
 
 
 export function AuthLayoutPacient(){

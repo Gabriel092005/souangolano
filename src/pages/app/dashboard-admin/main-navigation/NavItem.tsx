@@ -1,23 +1,14 @@
 import {
-  Bell,
-  Home,
-  MessageSquare,
   Settings,
-  Power,
-  Eye,
-  AlertTriangle,
   Play,
-  Leaf,
   MoveLeft,
 } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
 import {
   Dialog,
-  DialogContent,
   DialogTrigger,
 } from "@/components/ui/dialog";
 import { Sair } from "./Sair";
-import { Button } from "@/components/ui/button";
 
 export function NavItem() {
   const location = useLocation();
